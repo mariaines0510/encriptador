@@ -1,0 +1,133 @@
+*{
+    background-color: #F3F5FC;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 4%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+.text-area{
+    height: 400px;
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder {color: #0A3871;}
+.text-area:focus{
+    outline: none;
+}
+
+
+
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+
+}
+.informacion{
+    color: #495057;
+    font-size: 18px;
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 30px;
+    width: 328px;
+    
+}
+
+.btn-desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 25px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.mensaje{
+    width: 450px;
+    height: 620px;
+    background-color: white;
+    background-image: url(./img/img.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 25px;
+    color: #0A3871 ;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 25px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 180px;
+    margin-top: 402px;
+    position: relative;
+    top: 200px;
+    width: 328px;
+}
+
+@media screen and (max-width:480px){
+
+    .encabezado{
+        height: 20px;
+    }
+    
+
+    main{
+        display: block;
+        margin-bottom: 10px;
+        margin: 0 10px;
+    }
+
+    .text-area{
+        height: 50px;
+    }
+
+    .mensaje{
+        width: 330px;
+        height: 300px;
+        margin-left: 2px;
+        margin-top: 5px;
+        padding: 20px;
+    }
+    .copiar{
+        height: 40px;
+        margin-left: 10px;
+        margin-top: 100px;
+        position: relative;
+        top: 200px;
+        width: 330px;
+    }
+}
+
